@@ -22,7 +22,7 @@
 👆的代码因为第一句中有document的存在，如果页面没有加载完全的话，就会出错。因为js文件加载时就会立即执行，不管是放在head中还是／body前面。
 
 👇的代码中因为window对象在html文档全部加载后才会触发，而document对象是window对象的一个属性。window触发onload时，document已经存在。
-    
+
     window.onload = prepareLinks;
     function prepareLinks(){
         var links = document.getElementsByTagName("a");
@@ -44,7 +44,7 @@
 * 向后兼容
 
 使用逻辑非语句会更简单，千万不能在测试语句中加(),否则测试的是语句的结果
-   
+
     window.onload = function() {
         if(!document.getElementsByTagName) return false;
         var links = document.getElementsByTagName("a");
