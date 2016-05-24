@@ -71,6 +71,7 @@
     }
 
 👆的代码会搜索两次dom树
+
 👇的只会搜索一次
 
     var links = document.getElementsByTagName("a");
