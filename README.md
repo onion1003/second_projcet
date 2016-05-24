@@ -2,7 +2,8 @@
 
 * 学习了第一个“平稳退化”的例子
 
-    <a href="http://www.example.com/" onclick="popUp(this.href);return false;">Exampel</a>   在js代码无效时，依然可以工作
+    <a href="http://www.example.com/" onclick="popUp(this.href);return false;">Example</a>   
+在js代码无效时，依然可以工作
 
 * 分离js，即在用外部js操作内部html
 
