@@ -1,10 +1,10 @@
 #第五章笔记
 
--学习了第一个“平稳退化”的例子
+* 学习了第一个“平稳退化”的例子
 
 <a href="http://www.example.com/" onclick="popUp(this.href);return false;">Exampel</a>   在js代码无效时，依然可以工作
 
-－分离js，即在用外部js操作内部html
+* 分离js，即在用外部js操作内部html
 
 在外部js文件中使用 element.event = action
 
@@ -39,7 +39,7 @@ function popUp(winURL) {
 }//打开一个新窗口，第一个参数是链接，第二个是窗口名，第三个是窗口大小
 
 
--向后兼容
+* 向后兼容
 
 使用逻辑非语句会更简单，千万不能在测试语句中加(),否则测试的是语句的结果
 window.onload = function() {
@@ -55,7 +55,7 @@ window.onload = function() {
     }
 }
 
--性能考虑
+* 性能考虑
 
 尽量少访问dom和减少标记
 利用dom查询元素，浏览器会搜索整棵dom树,标记太多树会变大
